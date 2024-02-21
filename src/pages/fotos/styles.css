@@ -1,0 +1,32 @@
+.fotos-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fotos-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.fotos {
+    width: 500px;
+    height: 400px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.fotos:hover {
+    transform: scale(1.02);
+}
+
